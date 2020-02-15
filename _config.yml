@@ -1,0 +1,12 @@
+# Site settings
+title: Lykourgos Tsirikos Resume
+author:
+  name: Lykourgos Tsirikos
+  email: lykourgos.tsirikos@gmail.com
+description: > # this means to ignore newlines until "show_excerpts:"
+  This is my resume/personal website in which you can find more
+  information about me, my skills, my interests etc
+
+# Build settings
+markdown: kramdown
+permalink: pretty
