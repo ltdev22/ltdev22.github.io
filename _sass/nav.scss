@@ -19,5 +19,25 @@
                 border-color: $light-color;
             }
         }
+        margin-bottom: 20px;
+    }
+
+    .navbar-nav {
+        .nav-item {
+            display: block;
+            padding: .8rem 1rem;
+        }
+        .nav-link {
+            display: block;
+            font-size: 22px;
+            color: rgba($light-color,.8);
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: .05rem;
+            transition: 0.3s;
+            &:hover {
+                color: $light-color;
+            }
+        }
     }
 }
