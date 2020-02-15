@@ -1,5 +1,24 @@
 <hr id="experience" />
 
 <section class="resume-section experience">
-    Experience
+    <h2 class="section-heading">Experience</h2>
+
+    {% for job in site.data.experience %}
+        <div class="experience-item">
+            <div class="experience-content">
+                <h3 class="experience-heading">{{ job.job_title }}</h3>
+                <div class="experience-date">
+                    <span>{{ job.date }}</span>
+                </div><!-- /.experience-date -->
+                <div class="experience-subheading">
+                    {{ job.company_info }}&bull;{{ job.location }}
+                </div>
+                <div class="experience-description">
+                    {{ job.description }}
+                </div>
+            </div><!-- /.experience-content -->
+
+        </div><!-- /.experience-item -->
+    {% endfor %}
+
 </section><!-- /.experience -->
