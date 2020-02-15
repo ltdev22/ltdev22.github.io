@@ -1,11 +1,21 @@
 .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 22em;
+    @media (max-width: 1023px) {
+        width: 18rem;
+    }
+}
+.nav-inner {
     background-color: $base-color;
     color: $light-color;
     padding: 20px;
+    padding-top: 60px;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
 
     .nav-brand {
@@ -19,10 +29,10 @@
                 border-color: $light-color;
             }
         }
-        margin-bottom: 20px;
     }
 
     .navbar-nav {
+        margin-top: 40px;
         .nav-item {
             display: block;
             padding: .8rem 1rem;
