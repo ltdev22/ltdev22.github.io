@@ -10,3 +10,5 @@ description: > # this means to ignore newlines until "show_excerpts:"
 # Build settings
 markdown: kramdown
 permalink: pretty
+sass:
+    style: compressed
