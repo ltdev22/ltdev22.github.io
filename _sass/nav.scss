@@ -3,4 +3,21 @@
     color: $light-color;
     padding: 20px;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    .nav-brand {
+        img {
+            max-width: 12rem;
+            max-height: 12rem;
+            border-radius: 50%;
+            border: 2px solid rgba($light-color,.4);
+            transition: 0.3s;
+            &:hover {
+                border-color: $light-color;
+            }
+        }
+    }
 }
