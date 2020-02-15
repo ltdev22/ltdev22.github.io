@@ -1,0 +1,32 @@
+- name: html5
+  fa_icon: html5
+
+- name: css3
+  fa_icon: css3-alt
+
+- name: js
+  fa_icon: js-square
+
+- name: sass
+  fa_icon: sass
+
+- name: php
+  fa_icon: php
+
+- name: laravel
+  fa_icon: laravel
+
+- name: npm
+  fa_icon: npm
+
+- name: git
+  fa_icon: git-alt
+
+- name: github
+  fa_icon: github-square
+
+- name: docker
+  fa_icon: docker
+
+- name: ubuntu
+  fa_icon: ubuntu

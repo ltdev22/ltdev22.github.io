@@ -1,0 +1,15 @@
+.skills {
+    .dev-skills {
+        font-size: 6rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content:flex-start;
+        li {
+            display: inline-block;
+            margin-right: 4%;
+            margin-bottom: 4%;
+        }
+    }
+}
+

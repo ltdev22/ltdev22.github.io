@@ -1,5 +1,15 @@
 <hr id="skills" />
 
 <section class="resume-section skills">
-    Skills
+    <h2 class="section-heading">Skills</h2>
+    <div class="sub-heading">Programming Languages &amp; Tools</div>
+    <div class="skills-icons">
+        <ul class="dev-skills">
+            {% for skill in site.data.skills %}
+                <li>
+                    <i class="fab fa-{{ skill.fa_icon }}"></i>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 </section><!-- /.skills -->
