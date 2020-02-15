@@ -1,8 +1,47 @@
 .main-content {
+    color: $text-color;
     background-color: $light-color;
     padding: 60px 20px 20px 26rem;
     height: 100vh;
     @media (max-width: 1023px) {
         padding-left: 20rem;
+    }
+
+    .resume-section {
+        min-height: 40vh;
+        padding: 3rem 0;
+        &:first-child {
+            padding-top: 0;
+        }
+        .jumbotron {
+            .heading {
+                display: block;
+                font-size: 6rem;
+                line-height: 5.5rem;
+                margin-bottom: 30px;
+            }
+            .sub-heading {
+                display: block;
+                font-size: 1.5rem;
+                color: rgba($text-color, 0.65);
+                span {
+                    color: $text-color;
+                }
+            }
+            .lead {
+                font-size: 1.15rem;
+                margin: 3rem 0;
+                line-height: 1.5;
+            }
+        }
+    }
+
+    hr {
+        margin: 3rem auto;
+        width: 170px;
+    }
+
+    .highlight {
+        color: $base-color;
     }
 }
