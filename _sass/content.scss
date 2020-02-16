@@ -22,11 +22,21 @@
             text-transform: uppercase;
             margin-bottom: 1.5rem;
         }
+
+        .lead {
+            font-size: 1.45rem;
+            margin: 3rem 0;
+            line-height: 1.5;
+        }
     }
 
     hr {
         margin: 3rem auto;
         width: 170px;
+    }
+
+    p {
+        margin-bottom: 1.2rem;
     }
 
     a, .highlight {
