@@ -50,6 +50,11 @@
                 color: $light-color;
             }
         }
+        .nav-item.active {
+            .nav-link {
+                color: $light-color;
+            }
+        }
     }
 
     .social-icons {
