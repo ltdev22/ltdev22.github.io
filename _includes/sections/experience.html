@@ -11,7 +11,7 @@
                     <span>{{ job.date }}</span>
                 </div><!-- /.experience-date -->
                 <div class="experience-subheading">
-                    {{ job.company_info }}&bull;{{ job.location }}
+                    <a href="{{ job.link }}" target="_blank">{{ job.company_info }}</a> &bull; {{ job.location }}
                 </div>
                 <div class="experience-description">
                     {{ job.description }}

@@ -1,5 +1,6 @@
 - job_title: Full-stack Developer
   company_info: Blubolt ltd
+  link: https://www.blubolt.com/
   location: Bath, UK
   description: "<p>As part of the implementation team I have performed various tasks which are 
   varied between back-end and for most of the last year front-end. These tasks
@@ -14,6 +15,7 @@ exposed to some of the latest JS technologies such as React.</p>"
 
 - job_title: Full-stack Developer
   company_info: Bugfinders ltd
+  link: https://www.bugfinders.com/
   location: Cheltenham, UK
   description: "<p>Part of the in-house development team in which I worked on new
 components, maintained and extend the core functionality of the prototype
@@ -23,6 +25,7 @@ web application allowing testers to report bugs on customer websites.</p>"
 
 - job_title: Web Developer
   company_info: it-concept ltd
+  link: https://itconcept.gr/?lang=en/
   location: Argyroupolis, Greece
   description: "<p>Digital agency in which I have worked on the development of commercial
 websites mainly build on Wordpress by performing theme customization.
@@ -32,6 +35,7 @@ Also worked on custom development of websites built on PHP and MySQL.</p>"
 
 - job_title: PHP Developer
   company_info: 3Works Development Studio
+  link: https://www.3works.gr/
   location: Athens, Greece
   description: "<p>Digital agency in which I have worked on the backend development of a
 prototype web application using PHP and MySQL.</p>
@@ -42,6 +46,7 @@ top of the core functionality of the company’s custom cms.</p>"
 
 - job_title: CMS Developer
   company_info: Focus-on group
+  link: https://www.focus-on.gr/en/
   location: Glyfada, Greece
   description: "<p>Digital agency in which I worked mainly on theme customization for websites
 based on Wordpress and Prestashop open source cms’s</p>"
@@ -50,6 +55,7 @@ based on Wordpress and Prestashop open source cms’s</p>"
 
 - job_title: 1<span class="lower">st</span> level Hardware engineer
   company_info: Intracom Telecom
+  link: http://www.intracom-telecom.com/
   location: Paiania, Greece
   description: "<p>Six-month internship during my studies at the TEI of Epirus</p>"
   date: May 2010 - October 2010
