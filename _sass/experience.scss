@@ -5,12 +5,11 @@
     .experience-heading {
         font-size: 2rem;
         color: $base-color;
-        text-transform: uppercase;
         margin-bottom: 0.5rem;
-    }
-    .experience-date {
-        float: right;
-        color: rgba($text-color, 0.6);
+        .company, .company a {
+            color: rgba($text-color, 0.6);
+            border-color: rgba($text-color, 0.6);
+        }
     }
     .experience-subheading {
         font-size: 1.5rem;

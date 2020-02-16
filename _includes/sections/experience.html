@@ -6,12 +6,12 @@
     {% for job in site.data.experience %}
         <div class="experience-item">
             <div class="experience-content">
-                <h3 class="experience-heading">{{ job.job_title }}</h3>
-                <div class="experience-date">
-                    <span>{{ job.date }}</span>
-                </div><!-- /.experience-date -->
+                <h3 class="experience-heading">
+                    <span class="role">{{ job.job_title }}</span>
+                    <span class="company"> @ <a href="{{ job.link }}" target="_blank">{{ job.company_info }}</a></span>
+                </h3>
                 <div class="experience-subheading">
-                    <a href="{{ job.link }}" target="_blank">{{ job.company_info }}</a> &bull; {{ job.location }}
+                    <span>{{ job.location }}</span> &bull; <span>{{ job.date }}</span>
                 </div>
                 <div class="experience-description">
                     {{ job.description }}
