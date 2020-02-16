@@ -1,0 +1,14 @@
+- name: About Me
+  link: top
+
+- name: Skills
+  link: skills
+
+- name: Experience
+  link: experience
+
+- name: Education
+  link: education
+
+- name: Interests
+  link: interests
