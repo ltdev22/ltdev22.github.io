@@ -23,12 +23,11 @@
         </div><!-- /.navbar-main -->
 
         <div class="social-icons desktop-visible">
-            <a href="https://www.linkedin.com/in/lykourgostsirikos" target="_blank" class="social-icon">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="https://github.com/ltdev22?tab=repositories" target="_blank"  class="social-icon">
-                <i class="fab fa-github"></i>
-            </a>
+            {% for social in site.data.socials %}
+                <a href="{{ social.link }}" target="_blank" class="social-icon">
+                    <i class="fab fa-{{ social.icon }}"></i>
+                </a>
+            {% endfor %}
         </div><!-- /.navbar-social -->
     </div><!-- /.nav-inner -->
 </nav>

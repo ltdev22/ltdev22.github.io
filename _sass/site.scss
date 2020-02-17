@@ -12,6 +12,28 @@ body {
     }
 }
 
+.social-icons {
+    margin-top: 40px;
+    .social-icon {
+        display: inline-block;
+        height: 3.5rem;
+        width: 3.5rem;
+        background-color: $text-color;
+        color: $light-color;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 3.5rem;
+        margin-right: 1rem;
+        .fab {
+            padding-top: 16px;
+        }
+    }
+    @media (max-width: 767px) {
+        display: none;
+    }
+}
+
 .desktop-visible {
     display: block;
     @media (max-width: 767px) {
@@ -26,3 +48,6 @@ body {
     }
 }
 
+.mob-footer {
+    margin-bottom: 40px;
+}

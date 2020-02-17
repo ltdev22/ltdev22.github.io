@@ -9,6 +9,13 @@
             <div class="sh phone"><i class="fas fa-phone"></i> (+44) 07521 173 049 <span>&bull;</span></div>
             <div class="sh email"><i class="fas fa-at"></i> <img src="/assets/img/email.png"></div>
         </div>
+        <div class="social-icons mobile-visible">
+            {% for social in site.data.socials %}
+                <a href="{{ social.link }}" target="_blank" class="social-icon">
+                    <i class="fab fa-{{ social.icon }}"></i>
+                </a>
+            {% endfor %}
+        </div><!-- /.social-icons -->
         <div class="lead">
             I'm a mid-level <span class="highlight">Full-stack Developer</span> from <a href="https://en.wikipedia.org/wiki/Glyfada" target="_blank">Glyfada</a>, Greece based in Bristol U.K. I enjoy working on the development of custom websites and web applications and I always try to write clean and readable code, following the best practices.
         </div>

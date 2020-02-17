@@ -1,0 +1,9 @@
+<hr class="mobile-visible">
+
+<div class="social-icons mob-footer mobile-visible">
+    {% for social in site.data.socials %}
+        <a href="{{ social.link }}" target="_blank" class="social-icon">
+            <i class="fab fa-{{ social.icon }}"></i>
+        </a>
+    {% endfor %}
+</div><!-- /.social-icons -->

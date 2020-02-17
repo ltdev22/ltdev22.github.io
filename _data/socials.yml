@@ -1,0 +1,7 @@
+- name: LinkedIn
+  link: https://www.linkedin.com/in/lykourgostsirikos
+  icon: linkedin-in
+
+- name: GitHub
+  link: https://github.com/ltdev22?tab=repositories
+  icon: github
