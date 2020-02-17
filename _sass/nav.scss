@@ -31,15 +31,13 @@
         align-items: unset;
     }
 
-    .hamburger-menu {
-        a {
-            float: right;
-            margin-right: 1rem;
-            padding: 5px 10px;
-            border: 2px solid $light-color;
-            border-radius: 18%;
-            color: $light-color;
-        }
+    a.hamburger-menu {
+        float: right;
+        margin-right: 1rem;
+        padding: 5px 10px;
+        border: 2px solid $light-color;
+        border-radius: 18%;
+        color: $light-color;
     }
 
     .nav-brand {
