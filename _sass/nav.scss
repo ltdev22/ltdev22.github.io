@@ -7,6 +7,10 @@
     @media (max-width: 1023px) {
         width: 18rem;
     }
+    @media (max-width: 767px) {
+        width: 100%;
+        border-bottom: 2px solid #007400;
+    }
 }
 .nav-inner {
     background-color: $base-color;
@@ -18,6 +22,24 @@
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
+    align-items: center;
+    @media (max-width: 767px) {
+        height: unset;
+        padding: 10px;
+        text-align: left;
+        align-items: unset;
+    }
+
+    .hamburger-menu {
+        a {
+            float: right;
+            margin-right: 1rem;
+            padding: 5px 10px;
+            border: 2px solid $light-color;
+            border-radius: 18%;
+            color: $light-color;
+        }
+    }
 
     .nav-brand {
         img {
@@ -29,6 +51,12 @@
             &:hover {
                 border-color: $light-color;
             }
+        }
+        @media (max-width: 767px) {
+            font-size: 24px;
+            color: $light-color;
+            text-decoration: none;
+            text-transform: uppercase;
         }
     }
 
@@ -55,6 +83,18 @@
                 color: $light-color;
             }
         }
+        @media (max-width: 767px) {
+            margin-top: 10px;
+            .nav-item {
+                padding: .4rem 1rem;
+            }
+        }
+    }
+
+    .collapse {
+        @media (max-width: 767px) {
+            display: none;
+        }
     }
 
     .social-icons {
@@ -73,6 +113,9 @@
             .fab {
                 padding-top: 16px;
             }
+        }
+        @media (max-width: 767px) {
+            display: none;
         }
     }
 }

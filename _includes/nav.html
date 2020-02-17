@@ -1,8 +1,14 @@
 <nav class="nav">
     <div class="nav-inner">
         <div class="nav-main">
+            <div class="hamburger-menu mobile-visible">
+                <a href="#" onclick="event.preventDefault();toggleMobileMenu();">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
             <a href="#top" class="nav-brand">
-                <img src="assets/img/lykourgos.png" alt="{{ page.title }}">
+                <img src="assets/img/lykourgos.png" alt="{{ page.title }}" class="desktop-visible">
+                <span class="brand-name mobile-visible">Lykourgos Tsirikos</span>
             </a>
 
             <div class="collapse navbar-collapse">
@@ -16,7 +22,7 @@
             </div><!-- /.navbar-collapse -->
         </div><!-- /.navbar-main -->
 
-        <div class="social-icons">
+        <div class="social-icons desktop-visible">
             <a href="https://www.linkedin.com/in/lykourgostsirikos" target="_blank" class="social-icon">
                 <i class="fab fa-linkedin-in"></i>
             </a>

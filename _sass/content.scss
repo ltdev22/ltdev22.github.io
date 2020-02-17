@@ -5,6 +5,9 @@
     @media (max-width: 1023px) {
         padding-left: 20rem;
     }
+    @media (max-width: 767px) {
+        padding: 60px 2rem 20px 2rem;
+    }
 
     .resume-section {
         min-height: 80vh;
