@@ -23,6 +23,12 @@
                 span {
                     color: $text-color;
                 }
+                @media (max-width: 767px) {
+                    display: block;
+                    span {
+                        display: none;
+                    }
+                }
             }
             img {
                 height: 18px;
