@@ -1,5 +1,6 @@
+const navToggle = document.querySelector('.hamburger-menu a');
 const navMenuItems = document.querySelectorAll('.nav .navbar-nav li');
-const navLinks = document.querySelectorAll('.nav-main a');
+const navLinks = document.querySelectorAll('.nav-main .nav-target');
 
 function toggleMobileMenu() {
     let mobMenu = document.querySelector('.navbar-collapse');
@@ -38,4 +39,5 @@ function setActiveNavLink(el) {
 navLinks.forEach(el => el.addEventListener('click', (e) => {
     smoothScroll(e);
     setActiveNavLink(el);
+    navToggle.click();
 }));
