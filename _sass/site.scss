@@ -34,6 +34,19 @@ body {
     }
 }
 
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear-float {
+    clear: both;
+}
+
 .desktop-visible {
     display: block;
     @media (max-width: 767px) {

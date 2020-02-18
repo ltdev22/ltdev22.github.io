@@ -1,13 +1,8 @@
 <nav class="nav">
     <div class="nav-inner">
         <div class="nav-main">
-            <a href="#" class="hamburger-menu mobile-visible" onclick="event.preventDefault();toggleMobileMenu();">
-                <i class="fa fa-bars"></i>
-            </a>
-            <a href="#top" class="nav-brand nav-target">
-                <img src="assets/img/lykourgos.png" alt="{{ page.title }}" class="desktop-visible">
-                <span class="brand-name mobile-visible">Lykourgos Tsirikos</span>
-            </a>
+            {% include nav/desktop_menu.html %}
+            {% include nav/mobile_menu.html %}
 
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
