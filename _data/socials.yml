@@ -5,3 +5,7 @@
 - name: GitHub
   link: https://github.com/ltdev22?tab=repositories
   icon: github
+
+- name: Stackoverflow
+  link: https://stackoverflow.com/users/1483422/ltdev
+  icon: stack-overflow
